@@ -93,56 +93,52 @@ nav {
     border-color: transparent;
     color: white;
 }
+
 /*
 fin head
 /*
 /* 
 body
 */
-.logo{
-    border-color: transparent;
-}
-img{
-    border: solid;
-    color: white;
-}
 body{
     background-image: url("../img/bgindex2.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: 'Piedra', cursive;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
 }
-.main {
-    margin-top: 10%;
-    margin-bottom: 10%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-h3, .jacket {
-    padding-left: 100px;
-}
-figcaption {
+.titleCategory{
+    font-size: 50px;
+    padding-top: 3%;
     text-align: center;
 }
 .jacket{
-    width: 256px;
+    text-align: center;
     float: left;
+    width: 25%;
     transition: transform.2s;
 }
-#Nouveautés {
+.trend, .news, .mostSell, .commingSoon{
+    width: 100%;
+    height: 25rem;
     float: left;
 }
-#Lesplusvendus {
-    float: left;
+/*
+.trend{
+    background-color: blue;
 }
-#Avenir {
-    float: left;
+.news{
+    background-color: green;
 }
-.spaceBody {
-    margin-top: 30%;
+
+.mostSell{
+    background-color: red;
 }
+.commingSoon{
+    background-color: orange;
+}
+*/
 /*
 Fin du body
 */
