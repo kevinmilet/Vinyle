@@ -1,50 +1,199 @@
-header {
-    width: 100%;
+@import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
+/*
+head
+*/
+nav {
     height: 100px;
-    background-color: pink;
-}
-.headerConatainerIndex {
     width: 100%;
-    float: left;
+    background-color: #DD7373;
 }
-#logoIndex{
+.homeButton {
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
     float: left;
+    animation: animation_rotate;
 }
-.vlHeader1{
-    border-left: 5px solid blue;
+
+@keyframes animation_rotate {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+.vlheader {
+    border-left: 5px solid #51A3A3;
     height: 100px;
     position: relative;
     float: left;
 }
-#searchBarIndex{
+.vlheader2 {
+    border-left: 5px solid #51A3A3;
+    height: 50px;
+    position: relative;
     float: left;
-    width: 80%;
+}
+#searchBarIndex {
+    float: left;
+    width: 50%;
     height: 3rem;
     margin-top: 25px;
     margin-left: 10%;
-    margin-right: 10%;  
+    margin-right: 10%;
+    border-radius: 10px;
+    border: solid;
+    border-color: #3B3561;
 }
-.containerShearBarIndex{
-    width: 70%;
-    float: left;
+.buttonContainer {
+    float: right;
+    width: 20%;
 }
-.buttonContainer{
-    float: left;
-    width: 24%;
-}
-#account{
+#account {
     width: 50%;
     height: 100px;
     font-size: 25px;
+    background-color: #51A3A3;
+    color: white;
+    transition: transform.2s;
 }
-#ShoppingCart{
+#account:hover, #shoppingCart:hover, .categoryButton:hover, .jacket:hover{
+    transform: scale(1.1);
+}
+.categoryButton:hover, #shoppingCart:hover, #account:hover{
+    border-radius: 5px;
+}
+#shoppingCart {
     float: left;
     width: 50%;
     height: 100px;
     font-size: 25px;
+    background-color: #51A3A3;
+    color: white;
+    transition: transform.2s;
 }
-#searchButton{
+#searchButton {
     float: left;
-    width: 5%;
+    width: 80px;
+    height: 80px;
+}
+.category {
+    float: left;
+    width: 100%;
     height: 50px;
+    background-color: #EAD94C;
 }
+.categoryButtonContainer {
+    text-align: center;
+}
+.categoryButton {
+    width: 10%;
+    height: 45px;
+    transition: transform.2s;
+    margin-top: 2px;
+    margin-left: 5%;
+    background-color: #51A3A3;
+    border-color: transparent;
+    color: white;
+}
+/*
+fin head
+/*
+/* 
+body
+*/
+.logo{
+    border-color: transparent;
+}
+img{
+    border: solid;
+    color: white;
+}
+body{
+    background-image: url("../img/bgindex2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Piedra', cursive;
+    color: white;
+    font-size: 20px;
+}
+.main {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+h3, .jacket {
+    padding-left: 100px;
+}
+figcaption {
+    text-align: center;
+}
+.jacket{
+    width: 256px;
+    float: left;
+    transition: transform.2s;
+}
+#Nouveautés {
+    float: left;
+}
+#Lesplusvendus {
+    float: left;
+}
+#Avenir {
+    float: left;
+}
+.spaceBody {
+    margin-top: 30%;
+}
+/*
+Fin du body
+*/
+
+/*
+footer
+*/
+p {
+    margin-left: 1em;
+}
+img {
+    vertical-align: middle;
+    margin-left: 1em;
+}
+a {
+    color: black;
+}
+.page1 {
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.footer {
+    float: left;
+    width: 100%;
+    height: 250px;
+    background-color: rgb(147, 147, 147);
+}
+.contact {
+    width: 25%;
+    height: 250px;
+    float: left;
+}
+.mention {
+    width: 25%;
+    height: 250px;
+    float: left;
+}
+.groupe {
+    width: 25%;
+    height: 250px;
+    float: left;
+}
+
+.help {
+    width: 25%;
+    height: 250px;
+    float: left;
+}
+/*
+fin du footer
+*/

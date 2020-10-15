@@ -1,0 +1,62 @@
+nav {
+    height: 100px;
+    width: 100%;
+    background-color: aquamarine;
+}
+#home {
+    background-image: url("assets/img/logo_128p.png");
+    background-repeat: no-repeat;
+    background-position: 5px 2px;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border-color: transparent;
+    float: left;
+}
+.vlheader{
+    border-left: 5px solid #51A3A3;
+    height: 100px;
+    position: relative;
+    float: left;
+}
+.vlheader2{
+    border-left: 5px solid #51A3A3;
+    height: 100px;
+    position: relative;
+    float: left;
+}
+#searchBarIndex{
+    float: left;
+    width: 50%;
+    height: 3rem;
+    margin-top: 25px;
+    margin-left: 10%;
+    margin-right: 10%;  
+    border-radius: 10px;
+    border: solid;
+    border-color: #51A3A3;
+}
+.buttonContainer{
+    float: right;
+    width: 20%;
+}
+#account{
+    width: 50%;
+    height: 100px;
+    font-size: 25px;
+    background-color: #D1D1D1;
+    color: #3B3561;
+}
+#shoppingCart{
+    float: left;
+    width: 50%;
+    height: 100px;
+    font-size: 25px;
+    background-color: #D1D1D1;
+    color: #3B3561;
+}
+#searchButton{
+    float: left;
+    width: 80px;
+    height: 80px;
+}
