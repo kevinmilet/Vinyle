@@ -5,7 +5,7 @@ head
 nav {
     height: 100px;
     width: 100%;
-    background-color: #853832;
+    background-color: #b6c7e0b6;
 }
 .homeButton {
     background-repeat: no-repeat;
@@ -18,6 +18,18 @@ nav {
 @keyframes animation_rotate {
     0% { -webkit-transform: rotate(0deg); }
     100% { -webkit-transform: rotate(360deg); }
+}
+.vlheader {
+    border-left: 5px solid #999c80d5;
+    height: 100px;
+    position: relative;
+    float: left;
+}
+.vlheader2 {
+    border-left: 5px solid #9ca062cb;
+    height: 50px;
+    position: relative;
+    float: left;
 }
 #searchBarIndex {
     float: left;
@@ -38,10 +50,9 @@ nav {
     width: 50%;
     height: 100px;
     font-size: 25px;
-    background-color: #592622;
+    background-color: #51A3A3;
     color: white;
     transition: transform.2s;
-    border-color: black;
 }
 #account:hover, #shoppingCart:hover, .categoryButton:hover, .jacket:hover{
     transform: scale(1.1);
@@ -54,10 +65,9 @@ nav {
     width: 50%;
     height: 100px;
     font-size: 25px;
-    background-color: #592622;
+    background-color: #51A3A3;
     color: white;
     transition: transform.2s;
-    border-color: black;
 }
 #searchButton {
     float: left;
@@ -79,7 +89,7 @@ nav {
     transition: transform.2s;
     margin-top: 2px;
     margin-left: 5%;
-    background-color: #191d21;
+    background-color: #51A3A3;
     border-color: transparent;
     color: white;
 }
@@ -91,7 +101,7 @@ fin head
 body
 */
 body{
-    background-image: url("../img/bgindex2.jpg");
+    background-image: url("../img/bg_rap.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: 'Piedra', cursive;
@@ -157,7 +167,7 @@ a {
     float: left;
     width: 100%;
     height: 250px;
-    background-color: #853832b6;;
+    background-color: #b6c7e0b6;
 }
 .contact {
     width: 25%;

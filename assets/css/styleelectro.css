@@ -5,7 +5,7 @@ head
 nav {
     height: 100px;
     width: 100%;
-    background-color: #853832;
+    background-color: #4c91a6;
 }
 .homeButton {
     background-repeat: no-repeat;
@@ -38,7 +38,7 @@ nav {
     width: 50%;
     height: 100px;
     font-size: 25px;
-    background-color: #592622;
+    background-color: #305b69;
     color: white;
     transition: transform.2s;
     border-color: black;
@@ -54,7 +54,7 @@ nav {
     width: 50%;
     height: 100px;
     font-size: 25px;
-    background-color: #592622;
+    background-color: #305b69;
     color: white;
     transition: transform.2s;
     border-color: black;
@@ -91,7 +91,7 @@ fin head
 body
 */
 body{
-    background-image: url("../img/bgindex2.jpg");
+    background-image: url("../img/bg_electro.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: 'Piedra', cursive;
@@ -157,7 +157,7 @@ a {
     float: left;
     width: 100%;
     height: 250px;
-    background-color: #853832b6;;
+    background-color: #4c91a6b6;
 }
 .contact {
     width: 25%;
