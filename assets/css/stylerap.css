@@ -93,7 +93,6 @@ nav {
     border-color: transparent;
     color: white;
 }
-
 /*
 fin head
 /*
@@ -124,21 +123,6 @@ body{
     height: 25rem;
     float: left;
 }
-/*
-.trend{
-    background-color: blue;
-}
-.news{
-    background-color: green;
-}
-
-.mostSell{
-    background-color: red;
-}
-.commingSoon{
-    background-color: orange;
-}
-*/
 /*
 Fin du body
 */
