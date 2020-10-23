@@ -96,7 +96,6 @@ head
     color: white;
 }
 /* fin head /*
-
 /* body */
 body{
     background-image: url("../img/bg_pop-rock.jpg");
@@ -123,7 +122,6 @@ body{
     float: left;
 }
 /* Fin du body */
-
 /* footer */
 p {
     margin-left: 1em;
