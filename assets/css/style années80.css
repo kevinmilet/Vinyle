@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
+
 /*
 head
 */
+
 nav {
     height: 100px;
     width: 100%;
     background-color: #D98314;
 }
+
 .homeButton {
     background-repeat: no-repeat;
     width: 100px;
@@ -16,21 +19,28 @@ nav {
 }
 
 @keyframes animation_rotate {
-    0% { -webkit-transform: rotate(0deg); }
-    100% { -webkit-transform: rotate(360deg); }
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
 }
+
 .vlheader {
     border-left: 5px solid #51A3A3;
     height: 100px;
     position: relative;
     float: left;
 }
+
 .vlheader2 {
     border-left: 5px solid #51A3A3;
     height: 50px;
     position: relative;
     float: left;
 }
+
 #searchBarIndex {
     float: left;
     width: 50%;
@@ -42,10 +52,12 @@ nav {
     border: solid;
     border-color: #3B3561;
 }
+
 .buttonContainer {
     float: right;
     width: 20%;
 }
+
 #account {
     width: 50%;
     height: 100px;
@@ -58,12 +70,20 @@ nav {
     transition: transform.2s;
     border-color: black;
 }
-#account:hover, #shoppingCart:hover, .categoryButton:hover, .jacket:hover{
+
+#account:hover,
+#shoppingCart:hover,
+.categoryButton:hover,
+.jacket:hover {
     transform: scale(1.1);
 }
-.categoryButton:hover, #shoppingCart:hover, #account:hover{
+
+.categoryButton:hover,
+#shoppingCart:hover,
+#account:hover {
     border-radius: 5px;
 }
+
 #shoppingCart {
     float: left;
     width: 50%;
@@ -74,20 +94,24 @@ nav {
     transition: transform.2s;
     border-color: black;
 }
+
 #searchButton {
     float: left;
     width: 80px;
     height: 80px;
 }
+
 .category {
     float: left;
     width: 100%;
     height: 50px;
     background-color: #292F36;
 }
+
 .categoryButtonContainer {
     text-align: center;
 }
+
 .categoryButton {
     width: 10%;
     height: 45px;
@@ -99,6 +123,7 @@ nav {
     color: white;
 }
 
+
 /*
 fin head
 /*
@@ -106,7 +131,7 @@ fin head
 body
 */
 
-body{
+body {
     background-image: url("../img/bg_80s.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -114,39 +139,52 @@ body{
     color: white;
     font-size: 15px;
 }
-.titleCategory{
+
+.titleCategory {
     font-size: 50px;
     padding-top: 3%;
     text-align: center;
 }
-.jacket{
+
+.jacket {
     text-align: center;
     float: left;
     width: 25%;
     transition: transform.2s;
 }
-.trend, .news, .mostSell, .commingSoon{
+
+.trend,
+.news,
+.mostSell,
+.commingSoon {
     width: 100%;
     height: 25rem;
     float: left;
 }
+
+
 /*
 Fin du body
 */
 
+
 /*
 footer
 */
+
 p {
     margin-left: 1em;
 }
+
 img {
     vertical-align: middle;
     margin-left: 1em;
 }
+
 a {
     color: black;
 }
+
 .page1 {
     width: 100%;
     height: 600px;
@@ -154,22 +192,26 @@ a {
     color: white;
     text-align: center;
 }
+
 .footer {
     float: left;
     width: 100%;
     height: 250px;
     background-color: #d98414b6;
 }
+
 .contact {
     width: 25%;
     height: 250px;
     float: left;
 }
+
 .mention {
     width: 25%;
     height: 250px;
     float: left;
 }
+
 .groupe {
     width: 25%;
     height: 250px;
@@ -181,6 +223,8 @@ a {
     height: 250px;
     float: left;
 }
+
+
 /*
 fin du footer
 */
